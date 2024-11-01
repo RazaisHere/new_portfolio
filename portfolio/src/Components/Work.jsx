@@ -38,7 +38,7 @@ function Work() {
           imgSrc: Image5,
           title: 'QR Code App',
           tags: [, 'Development'],
-          projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+          projectLink: 'https://razaishere.github.io/QR-Code-Generator/'
         },
         {
           imgSrc: Image6,
