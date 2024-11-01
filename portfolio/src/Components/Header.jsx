@@ -11,7 +11,7 @@ function Header() {
         
         {/* Logo Section */}
         <h1 className="flex justify-start">
-          <a href="/" className="logo">
+          <a href="#home" className="logo">
             <img src={logo} alt="Logo" width={40} height={40} />
           </a>
         </h1>
