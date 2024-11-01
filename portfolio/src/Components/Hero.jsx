@@ -2,6 +2,7 @@ import React from 'react'
 import Avatar from '../assets/images/avatar-1.jpg'
 import hero from '../assets/images/profile.jpg'
 import { ButtonPrimary, ButtonOutline } from './Button'
+import CV from '../assets/C__V.pdf'
 function Hero() {
     return (
         <section
@@ -40,7 +41,7 @@ function Hero() {
                         <ButtonPrimary
                             label={"Download CV"}
                             icon={"download"}
-                            href="/path/to/your-cv.pdf"  // Replace with actual file path
+                            href={CV}  // Replace with actual file path
                             target="_blank"
                             classes="download-cv-button"
                         />
