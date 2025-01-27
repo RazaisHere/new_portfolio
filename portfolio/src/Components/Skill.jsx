@@ -8,6 +8,8 @@ import Image5 from "../assets/images/react.svg"
 import Image6 from "../assets/images/expressjs.svg"
 import Image7 from "../assets/images/mongodb.svg"
 import Image8 from "../assets/images/tailwindcss.svg"
+import Image9 from "../assets/images/python-logo-only.svg"
+import Image10 from "../assets/images/icons8-chatgpt.svg"
 function Skill() {
     const skillItem = [
         {
@@ -24,6 +26,15 @@ function Skill() {
           imgSrc: Image3,
           label: 'JavaScript'
         },
+        {
+          imgSrc: Image9,
+          label: 'Python',
+        },
+        {
+          imgSrc: Image10,
+          label: 'Chatbots (OpenAI)',
+        },
+        
         {
           imgSrc:Image4,
           label: 'NodeJS',
